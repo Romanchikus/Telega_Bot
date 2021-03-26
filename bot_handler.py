@@ -38,7 +38,6 @@ def send_img(update, context):
         url = context.args[0]
     except IndexError:
         url = None
-    print(url)
 
     if not url or not re.match(regex, url):
         context.bot.send_message(chat_id=update.message.chat_id,

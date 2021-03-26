@@ -129,6 +129,6 @@ dmypy.json
 .pyre/
 .vscode/settings.json
 # static/
-img/*
+# img/*
 __pycache__
 *.pyc
